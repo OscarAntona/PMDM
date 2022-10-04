@@ -10,7 +10,7 @@
         android:id="@+id/texto1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Texto1"
+        android:text="Texto11"
         />
 
     <TextView
