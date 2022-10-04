@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:padding="20dp"
+    tools:context=".presentation.ex02b.presentation.Ut01Ex02b">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/burguer"
+            android:layout_width="@dimen/sizeImage_horizontal"
+            android:layout_height="@dimen/sizeImage_vertical"
+            android:layout_marginLeft="80dp"
+            android:contentDescription="imagen prueba"
+            android:scaleType="centerCrop"
+            android:src="@drawable/hamburguer_svgrepo_com" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:text="@string/titulo"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textSize01" />
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:text="@string/contenido"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textSize02" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+
+                    android:layout_width="@dimen/sizeImageStarHeart_horizontal"
+                    android:layout_height="@dimen/sizeImageStarHeart_vertical"
+                    android:layout_marginLeft="60dp"
+                    android:contentDescription="imagen prueba"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/star_svgrepo_com"
+                    app:tint="@color/yellow" />
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:contentDescription="imagen prueba"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/star_svgrepo_com"
+                    app:tint="@color/yellow" />
+
+                <ImageView
+                    android:layout_width="@dimen/sizeImageStarHeart_horizontal"
+                    android:layout_height="@dimen/sizeImageStarHeart_vertical"
+                    android:contentDescription="imagen prueba"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/star_svgrepo_com"
+                    app:tint="@color/yellow" />
+
+                <ImageView
+                    android:layout_width="@dimen/sizeImageStarHeart_horizontal"
+                    android:layout_height="@dimen/sizeImageStarHeart_vertical"
+                    android:contentDescription="imagen prueba"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/star_svgrepo_com"
+                    app:tint="@color/yellow" />
+
+                <ImageView
+                    android:layout_width="@dimen/sizeImageStarHeart_horizontal"
+                    android:layout_height="@dimen/sizeImageStarHeart_vertical"
+                    android:contentDescription="imagen prueba"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/star_svgrepo_com"
+                    app:tint="@color/yellow" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                >
+
+                <ImageView
+                    android:layout_width="@dimen/sizeImageStarHeart_horizontal"
+                    android:layout_height="@dimen/sizeImageStarHeart_vertical"
+                    android:layout_marginRight="60dp"
+                    android:contentDescription="imagen prueba"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/heart_svgrepo_com"
+                    app:tint="@color/Red"/>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

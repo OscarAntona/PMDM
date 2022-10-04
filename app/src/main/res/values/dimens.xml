@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="sizeImage_horizontal">200dp</dimen>
+    <dimen name="sizeImage_vertical">180dp</dimen>
+    <dimen name="sizeImageStarHeart_horizontal">25dp</dimen>
+    <dimen name="sizeImageStarHeart_vertical">25dp</dimen>
+    <dimen name="textSize01">30sp</dimen>
+    <dimen name="textSize02">20sp</dimen>
+</resources>
