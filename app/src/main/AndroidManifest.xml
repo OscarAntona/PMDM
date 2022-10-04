@@ -12,13 +12,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PMDM2022"
         tools:targetApi="31">
-       <!-- <activity
+        <activity
+            android:name=".Ut01Ex03"
+            android:exported="false"
+            android:label="@string/title_activity_ut01_ex03"
+            android:theme="@style/Theme.PMDM2022.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <!--
+         <activity
             android:name=".Ut01Ex02b"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
-        </activity>-->
+        </activity>
+        -->
         <activity
             android:name=".presentation.ex02b.presentation.Ut01Ex02b"
             android:exported="true">
