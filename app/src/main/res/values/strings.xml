@@ -1,10 +1,21 @@
 <resources>
-    <string name="app_name">PMDM-2022</string>
+    <string name="app_name">2 Disponibles</string>
+    <string name="nombreBurguer">Angus Beef Burguer</string>
+    <string name="nombreCalle">Angus Restaurant, Gran Vía, 28013 Madrid </string>
     <string name="title">Lorem ipsum dolor sit amet</string>
     <string name="fecha">01/01/22</string>
     <string name="titulo">Angus beef burger</string>
     <string name="contenido">17,50€</string>
     <string name="title_activity_ut01_ex03">Ut01Ex03</string>
+    <string name="label_app">ETIQUETA</string>
+
+    <string name="description">A regular portion of our best fries mixed with salt and pepper.</string>
+    <string name="price">$1,99</string>
+    <string name="premio">1º 🏆 </string>
+    <string name="titulo_tapa">Patatas bravas con salsa casera</string>
+    <string name="nombre_local">Bar las Escuelas</string>
+    <string name="total">Total: 7.5 Ptos.</string>
+    <string name="media">Media: 7</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
     <string name="second_fragment_label">Second Fragment</string>

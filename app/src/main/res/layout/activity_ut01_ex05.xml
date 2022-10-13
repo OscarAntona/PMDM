@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".presentation.ex05.Ut01Ex05"
+    android:orientation="vertical">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp"
+        app:cardMaxElevation="12dp">
+        <RelativeLayout
+            android:id="@+id/layout1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/image_height">
+
+            <ImageView
+                android:id="@+id/tapaimagen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/patatas_bravas_tapas_tipicas_espanolas"
+                android:scaleType="centerCrop"/>
+
+            <TextView
+                android:id="@+id/premio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:layout_margin="@dimen/price_margin"
+                android:padding="@dimen/price_padding"
+                android:text="@string/premio"
+                android:textSize="@dimen/font_text"
+                android:textColor="@color/red"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="250dp"
+            android:background="@color/black"
+            android:padding="@dimen/rel_padding">
+
+            <TextView
+                android:id="@+id/pack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="3"
+                android:text="@string/titulo_tapa"
+                android:textColor="@color/white"
+                android:textSize="@dimen/titulo_tapa_text_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/recogida"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/pack"
+                android:layout_marginTop="@dimen/general_margin_top"
+                android:text="@string/nombre_local"
+                android:textColor="@color/white"
+                android:textSize="@dimen/place_text_size" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/information_height"
+                android:layout_below="@+id/recogida"
+                android:layout_marginTop="@dimen/general_margin_top">
+
+
+                <TextView
+                    android:id="@+id/total"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:text="@string/total"
+                    android:textSize="@dimen/data_text_size" />
+
+                <TextView
+                    android:id="@+id/media"
+                    android:layout_width="wrap_content"
+                    android:textColor="@color/white"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/media_margin_left"
+                    android:layout_toRightOf="@+id/total"
+                    android:text="@string/media"
+                    android:textSize="@dimen/data_text_size"  />
+
+                <ImageView
+                    android:id="@+id/estrella"
+                    android:layout_marginLeft="@dimen/star_margin_left"
+                    android:layout_width="@dimen/star_width"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/media"
+                    android:src="@drawable/star_svgrepo_com"
+                    app:tint="@color/golden" />
+
+                <ImageView
+                    android:src="@drawable/share"
+                    android:id="@+id/share"
+                    android:layout_toLeftOf="@id/like"
+                    android:layout_width="@dimen/icons_dim"
+                    android:layout_marginRight="@dimen/share_margin"
+                    android:layout_height="@dimen/icons_dim"
+                    app:tint="@color/black" />
+
+
+                <ImageView
+                    android:src="@drawable/heart_svgrepo_com"
+                    android:id="@+id/like"
+                    android:layout_alignParentEnd="true"
+                    android:layout_width="@dimen/icons_dim"
+                    android:layout_height="@dimen/icons_dim"
+                    app:tint="@color/red" />
+
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+</RelativeLayout>
