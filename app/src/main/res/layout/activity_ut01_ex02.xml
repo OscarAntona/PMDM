@@ -28,7 +28,7 @@
         android:ellipsize="end"
         android:text="@string/titulo"
         android:textAlignment="center"
-        android:textColor="@color/Red"
+        android:textColor="@color/red"
         android:textSize="20sp" />
         <TextView
             android:layout_width="match_parent"
@@ -37,7 +37,7 @@
             android:maxLines="1"
             android:ellipsize="end"            android:text="@string/fecha"
             android:textAlignment="center"
-            android:textColor="@color/Red"
+            android:textColor="@color/red"
             android:textSize="20sp" />
         <TextView
             android:layout_width="match_parent"
@@ -47,7 +47,7 @@
             android:ellipsize="end"
             android:text="@string/contenido"
             android:textAlignment="center"
-            android:textColor="@color/Red"
+            android:textColor="@color/red"
             android:textSize="20sp" />
     </LinearLayout>
 

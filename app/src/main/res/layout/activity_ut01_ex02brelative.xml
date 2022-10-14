@@ -100,24 +100,14 @@
         android:layout_height="wrap_content"
         android:gravity="right"
         android:layout_below="@id/price">
-
-
         <ImageView
-
             android:id="@+id/corazon"
-            android:layout_toEndOf="@id/estrella5"
             android:layout_width="@dimen/sizeImageStarHeart_horizontal"
             android:layout_height="@dimen/sizeImageStarHeart_vertical"
             android:layout_marginRight="80dp"
             android:contentDescription="imagen prueba"
             android:scaleType="centerCrop"
             android:src="@drawable/heart_svgrepo_com"
-            app:tint="@color/Red" />
-
+            app:tint="@color/red" />
     </RelativeLayout>
-
-
-
-
-
 </RelativeLayout>

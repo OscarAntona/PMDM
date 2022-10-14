@@ -1,4 +1,4 @@
-package com.antgut.pmdm_2022.presentation
+package com.antgut.pmdm_2022.presentation.ex01
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
